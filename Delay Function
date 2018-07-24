@@ -7,6 +7,9 @@ public class WaitForSecondsExample : MonoBehaviour
     {
         StartCoroutine(Example());
     }
+    public void Update(){
+    
+    }
     IEnumerator Example()
     {
         print(Time.time);
@@ -14,3 +17,4 @@ public class WaitForSecondsExample : MonoBehaviour
         print(Time.time);
     }
  }
+ 
